@@ -1,0 +1,51 @@
+# cd
+alias ..='cd ..'
+alias cdd='cd -' 	# goto last dir cd'ed from
+
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'          
+
+# Misc
+alias h='history'
+alias c='clear'
+alias e='exit'
+alias mode='(set -o | grep emacs.*on >/dev/null 2>&1 && echo "emacs mode" || echo "vi mode")'
+
+# git
+alias g='git'
+#alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+
+# rails
+alias sc='./script/console'
+alias sg='./script/generate'
+alias ss='./script/server'
+alias sp='./script/server -e production'
+alias t='rake spec'
+alias ta='autotest -rails'
+alias m='rake db:migrate'
+#alias tlog='tail -f log/development.log'
+#alias scaffold='script/generate nifty_scaffold'
+
+# commands starting with % for pasting from web
+#alias %=' '             
+
+# Ruby
+alias irb='irb --readline -r irb/completion'       
+
+# mysql
+alias mysql-stop='sudo lanchtctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+alias mysql-start='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+
+# Webby
+alias webby='ssh ralph@208.88.125.27'
+
+
+#Bind readline to foreground process
+bind '"\C-f": "fg %-\n"'
+
+# MongoDb
+alias mdb='mongod run --config /usr/local/Cellar/mongodb/1.6.5-x86_64/mongod.conf'
+
