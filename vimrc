@@ -1,4 +1,3 @@
-" Example Vim configuration.
 " Copy or symlink to ~/.vimrc or ~/_vimrc.
 
 set nocompatible                  " Must come first because it changes other options.
@@ -42,7 +41,8 @@ set visualbell                    " No beeping.
 
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
-set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
+set backupdir=~/tmp
+set directory=~/tmp		  " Keep swap files in one location
 
 " UNCOMMENT TO USE
 "set tabstop=2                    " Global tab width.
