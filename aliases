@@ -40,11 +40,9 @@ alias mysql-stop='sudo lanchtctl unload -w /Library/LaunchDaemons/com.mysql.mysq
 alias mysql-start='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
 
 # Webby
-alias webby='ssh ralph@208.88.125.27'
+#alias webby='ssh ralph@208.88.125.27'
 
 
-#Bind readline to foreground process
-bind '"\C-f": "fg %-\n"'
 
 # MongoDb
 alias mdb='mongod run --config /usr/local/Cellar/mongodb/1.6.5-x86_64/mongod.conf'

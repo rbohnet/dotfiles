@@ -4,6 +4,10 @@ source ~/dotfiles/bash_completions/git_completion
 # Enable vi mode
 set -o vi
 
+
+#Bind readline to foreground process
+bind '"\C-f": "fg %-\n"'
+
 # Default editor
 export EDITOR="/usr/local/bin/vim"
 
