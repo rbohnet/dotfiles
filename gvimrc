@@ -1,13 +1,17 @@
-" Example Vim graphical configuration.
-" Copy to ~/.gvimrc or ~/_gvimrc.
+set go-=T
+set bg=dark
 
-set guifont=Inconsolata:h20            " Font family and font size.
-set antialias                     " MacVim: smooth fonts.
-set encoding=utf-8                " Use UTF-8 everywhere.
-set guioptions-=T                 " Hide toolbar.
-set background=light              " Background.
-set lines=25 columns=100          " Window dimensions.
+"if &background == "dark"
+    "hi normal guibg=black
+"endif
+set guifont=Monaco:h14
+colorscheme solarized
 
-set guioptions-=r                 " Don't show right scrollbar
+if exists('*HexHighlight()')
+  " http://www.vim.org/scripts/script.php?script_id=2937
+  nmap <leader>h :call HexHighlight()<Return>
+endif
 
-
+" Do not use modal alert dialogs! (Prefer Vim style prompt.)
+" http://stackoverflow.com/questions/4193654/using-vim-warning-style-in-gvim
+set guioptions+=c
