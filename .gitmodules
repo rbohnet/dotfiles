@@ -97,3 +97,6 @@
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/abolish"]
+	path = vim/bundle/abolish
+	url = git://github.com/tpope/vim-abolish.git
