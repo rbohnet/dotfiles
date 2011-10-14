@@ -85,9 +85,6 @@
 [submodule "vim/bundle/coffeescript"]
 	path = vim/bundle/coffeescript
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "vim/bundle/ReplaceWithRegister"]
-	path = vim/bundle/ReplaceWithRegister
-	url = git://github.com/vim-scripts/ReplaceWithRegister.git
 [submodule "vim/bundle/textobj-syntax"]
 	path = vim/bundle/textobj-syntax
 	url = git://github.com/kana/vim-textobj-syntax.git
@@ -97,9 +94,6 @@
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/bundle/abolish"]
-	path = vim/bundle/abolish
-	url = git://github.com/tpope/vim-abolish.git
 [submodule "vim/bundle/bufexplorer"]
 	path = vim/bundle/bufexplorer
 	url = git://github.com/cclow/vim-bufexplorer.git
