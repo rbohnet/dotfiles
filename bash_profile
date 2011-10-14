@@ -9,7 +9,7 @@ set -o vi
 bind '"\C-f": "fg %-\n"'
 
 # Default editor
-export EDITOR="/usr/local/bin/vim"
+export EDITOR="/usr/local/bin/mvim -v"
 
 # History
 # ignore any commands starting with fg from history
@@ -31,3 +31,4 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
+if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
