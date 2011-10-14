@@ -19,10 +19,6 @@ alias g='git'
 #alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 
 # rails
-alias sc='./script/console'
-alias sg='./script/generate'
-alias ss='./script/server'
-alias sp='./script/server -e production'
 alias t='rake spec'
 alias ta='autotest -rails'
 alias m='rake db:migrate'
@@ -39,10 +35,7 @@ alias irb='irb --readline -r irb/completion'
 alias mysql-stop='sudo lanchtctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
 alias mysql-start='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
 
-# Webby
-#alias webby='ssh ralph@208.88.125.27'
-
-
+alias vim='mvim -v'
 
 # MongoDb
 alias mdb='mongod run --config /usr/local/Cellar/mongodb/1.6.5-x86_64/mongod.conf'
