@@ -46,9 +46,6 @@
 [submodule "vim/bundle/visual-star-search"]
 	path = vim/bundle/visual-star-search
 	url = git@github.com:nelstrom/vim-visual-star-search.git
-[submodule "vim/bundle/space"]
-	path = vim/bundle/space
-	url = git://github.com/kongo2002/vim-space.git
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
 	url = git://github.com/pangloss/vim-javascript.git
@@ -64,18 +61,6 @@
 [submodule "vim/bundle/cucumber"]
 	path = vim/bundle/cucumber
 	url = git://github.com/tpope/vim-cucumber.git
-[submodule "vim/bundle/textobj-user"]
-	path = vim/bundle/textobj-user
-	url = git://github.com/kana/vim-textobj-user.git
-[submodule "vim/bundle/textobj-entire"]
-	path = vim/bundle/textobj-entire
-	url = git://github.com/kana/vim-textobj-entire.git
-[submodule "vim/bundle/textobj-lastpat"]
-	path = vim/bundle/textobj-lastpat
-	url = git://github.com/kana/vim-textobj-lastpat.git
-[submodule "vim/bundle/textobj-indent"]
-	path = vim/bundle/textobj-indent
-	url = git://github.com/kana/vim-textobj-indent.git
 [submodule "vim/bundle/indent-guides"]
 	path = vim/bundle/indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
@@ -85,9 +70,6 @@
 [submodule "vim/bundle/coffeescript"]
 	path = vim/bundle/coffeescript
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "vim/bundle/textobj-syntax"]
-	path = vim/bundle/textobj-syntax
-	url = git://github.com/kana/vim-textobj-syntax.git
 [submodule "vim/bundle/easymotion"]
 	path = vim/bundle/easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
